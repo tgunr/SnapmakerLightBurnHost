@@ -1,0 +1,178 @@
+{
+    "DeviceList": [
+        {
+            "Checklist": "",
+            "DefaultCutList": [
+            ],
+            "DefaultToolCutList": [
+            ],
+            "DisplayName": "SnapMaker Settings",
+            "EnableLaser2Offset": false,
+            "EnableProcessOffset": false,
+            "GUID": "4OS1hZDg1L",
+            "Height": 350,
+            "HomeOnStartup": false,
+            "Info": "",
+            "JogContinuous": false,
+            "Laser2OffsetX": 0,
+            "Laser2OffsetY": 0,
+            "LastCamera": "",
+            "LastDevLibraryPath": "",
+            "Macros": [
+                {
+                    "Content": "$X\n",
+                    "Label": "Unlock Machine($X)"
+                },
+                {
+                    "Content": "M2000 L23 P0\n",
+                    "Label": "Half Power(40W)"
+                },
+                {
+                    "Content": "M2000 L23 P1\n",
+                    "Label": "Full Power(40W)"
+                },
+                {
+                    "Content": "$S\n$I\n",
+                    "Label": "Machine Info"
+                },
+                {
+                    "Content": "M2000 W5 P0 Q0\n",
+                    "Label": "Enable Enclosure"
+                },
+                {
+                    "Content": "M2000 W5 P1 Q0\n",
+                    "Label": "Disable Enclosure"
+                }
+            ],
+            "MirrorX": false,
+            "MirrorY": false,
+            "MoveJogDistance": 10,
+            "MoveJogFromOrigin": true,
+            "MoveJogSpeed": 100,
+            "MoveJogZDistance": 10,
+            "MoveJogZSpeed": 10,
+            "Name": "SnapMaker",
+            "PositionTimerEnable": true,
+            "ProcessOffsetX": 0,
+            "ProcessOffsetY": 0,
+            "ProfilePath": "SnapMaker",
+            "ReverseIntervalCompensation": false,
+            "ReverseIntervals": [
+                {
+                    "LineShift": 0.10000000149011612,
+                    "Speed": 100,
+                    "StartAdjust": 0
+                },
+                {
+                    "LineShift": 0.10999999940395355,
+                    "Speed": 200,
+                    "StartAdjust": 0
+                },
+                {
+                    "LineShift": 0.10999999940395355,
+                    "Speed": 300,
+                    "StartAdjust": 0
+                },
+                {
+                    "LineShift": 0.11999999731779099,
+                    "Speed": 400,
+                    "StartAdjust": 0
+                }
+            ],
+            "Settings": {
+                "AirAssistM7": false,
+                "AlignH": 0,
+                "AlignV": 2,
+                "AllowSettingsFetch": false,
+                "BaudRate": 115200,
+                "Checklist": false,
+                "ClickSelTolerance": 3,
+                "CommPort": "/dev/cu.vsp1",
+                "ContinuousFrame": false,
+                "CutOrigin": 0,
+                "DockState_ArtBrowser": false,
+                "DockState_Camera": true,
+                "DockState_Console": true,
+                "DockState_CutLibrary": true,
+                "DockState_LaserFiles": true,
+                "DockState_Macros": true,
+                "DockState_Move": true,
+                "DockState_ShapeProperties": true,
+                "DockState_VariableText": false,
+                "EnableBoundsCheck": false,
+                "EnableDTR": false,
+                "EnableGrblJCommand": false,
+                "EnableU": false,
+                "EnableUserFinish": false,
+                "EnableZ": false,
+                "EndGCode": "",
+                "ForceSValueOutput": false,
+                "GCodeClustering": false,
+                "GridShade": 224,
+                "GridSnap": 1,
+                "GridSnapEnabled": true,
+                "GridSpacing": 10,
+                "LaserFire_Enable": true,
+                "LaserFire_Power": 3,
+                "LaserFrame_Enable": true,
+                "LastExportExt": "nc",
+                "LastMachineFileExtension": "",
+                "LastMachineFilePath": "C:/Users/BC/Downloads",
+                "Macro0_Content": "$X\n",
+                "Macro0_Label": "Unlock Machine($X)",
+                "Macro1_Content": "M3 S10\n",
+                "Macro1_Label": "Low Power Test (10W)",
+                "Macro2_Content": "M3 S100\n",
+                "Macro2_Label": "10% Power (10W)",
+                "Macro3_Content": "$S\n$I\n",
+                "Macro3_Label": "Machine Info",
+                "Macro4_Content": "",
+                "Macro4_Label": "",
+                "Macro5_Content": "",
+                "Macro5_Label": "",
+                "NegativeZ": false,
+                "NetworkPort": 23,
+                "ObjSnap": 10,
+                "ObjSnapEnabled": true,
+                "OptimizeZ": false,
+                "RelativeZOnly": false,
+                "S_Scale": 1000,
+                "Sim_CornerTolerance": 0.009999999776482582,
+                "Sim_FastWhiteScan": false,
+                "Sim_FastWhiteScanSpeed": 0,
+                "Sim_GlobalFactor": 1,
+                "Sim_MaxAccelX": 1000,
+                "Sim_MaxAccelY": 100,
+                "Sim_MaxSpeedX": 300,
+                "Sim_MaxSpeedY": 100,
+                "Sim_MinCornerSpeed": 1,
+                "Sim_RapidSpeed": 200,
+                "Sim_ScanAccelX": 1000,
+                "Sim_ScanAccelY": 100,
+                "Sim_SpeedFactor": 1,
+                "SkipWhiteFlag": false,
+                "SkipWhiteSpeed": 0,
+                "StartGCode": ";header_type: laser\n;machine: Snapmaker2\n;gcode_flavor: grbl\n;renderMethod: line\n;max_power: 1000",
+                "TabPulseWidth": 0.05000000074505806,
+                "TransferMode": 0,
+                "LaserFire_Power": 0,
+                "Units": 1,
+                "UseG0ForOverscan": false,
+                "UserFinishX": 0,
+                "UserFinishY": 0,
+                "UserOriginX": 0,
+                "UserOriginY": 0,
+                "mirrorRotaryOutput": false,
+                "overwriteFileByDefault": false,
+                "rotaryAxis": 3,
+                "rotaryDiameter": 50,
+                "rotaryIsChuck": true,
+                "rotaryMode": false,
+                "rotarySteps": 360
+            },
+            "ToolPower": 8,
+            "Type": "Serial",
+            "Width": 320
+        }
+    ]
+}
