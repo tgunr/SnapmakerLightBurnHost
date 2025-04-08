@@ -11,6 +11,7 @@ check_interval = 500  -- milliseconds (check more frequently - 500ms)
 last_modified_time = 0
 last_file_error_reported = 0
 log_file_path = "/Users/davec/Nextcloud/Work/Snapmaker/SnapmakerLightBurnHost/build/snapmaker_monitor.log"
+startup_indicator_path = "/Users/davec/Nextcloud/Work/Snapmaker/SnapmakerLightBurnHost/build/snapmaker_running.txt"
 
 -- Clear log at startup
 local log_file = io.open(log_file_path, "w")
